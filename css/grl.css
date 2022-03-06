@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(32, 32, 80); 
+    overflow-x: hidden;
+}
+
+#top_header{
+    padding: 5px ;
+    background-color: #fff;
+    height: 60px;
+}
+
+.first-div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 8px;
+    color: red;
+}
+
+.first-div a:hover{
+    text-decoration: none;
+}
+
+ul.topnav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.topnav li{
+    float: left;
+}
+
+ul.topnav li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active){
+    border-bottom: 2px solid rgb(32, 32, 80);
+    color: rgb(32, 32, 80);
+}
+
+ul.topnav .active{
+    color: #ff0000;
+}
+
+/*---Resources Links Navigation bar --Starts here--------------------------------*/
+ul.resources-links{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.resources-links li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+ul.resources-links li a:hover:not(.active){
+    border-bottom: 2px solid rgb(32, 32, 80);
+    color: rgb(32, 32, 80);
+}
+
+ul.resources-links .active{
+    background-color: rgb(32, 32, 80);
+    color: #fff;
+}
+
+
+
+/*---Resources Links Navigation bar --ends here--------------------------------*/
+
+
+
+/*Carousel for images starts here--------------------------*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+/*---------------------------------------------------------*/
+
+
+#homeinfo{
+    background-color: #fff;
+    padding: 40px 14px;
+}
+
+#homeinfo img{
+width: 350px;
+height: 300px;
+border-radius: 7px;
+}
+
+#homeinfo h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------*/
+#homeinfo-x{
+    background-color: inherit;
+    padding: 40px 14px;
+}
+
+#homeinfo-x img{
+width: 350px;
+height: 300px;
+border-radius: 7px;
+}
+
+#homeinfo-x h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#homeinfo-x p{
+    color: #fff;
+
+}
+/*------------------------------------------------------------------------------*/
+
+
+.card-caption{
+    position: absolute;
+    left: 120px;
+    top: 50px;
+}
+
+.card-caption strong{
+    color: red;
+}
+
+/*Section three------------------------------------------------------------------*/
+#main-content{
+    padding: 50px 14px;
+    border-radius: 7px 7px 0px 0px;
+
+}
+
+.content-title h2{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.content-title{
+    position: absolute;
+    width: 100%;
+    left: 300px;
+    padding-bottom: 40px;
+}
+
+.content-title-w{
+    position: absolute;
+    width: 100%;
+    left: 200px;
+    padding-bottom: 40px;
+}
+
+.content-title-w h2{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+.image-card-1 img{
+    width: 100%;
+    height: 200px;
+    border-radius: 7px 7px 0px 0px;
+    
+}
+
+
+.image-card-2 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 7px 7px 0px 0px;
+   
+}
+
+.image-card-3 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 7px 7px 0px 0px;
+   
+}
+
+.image-card-caption{
+    background-color: White;
+    padding: 14px 20px;
+    
+}
+
+.image-card-caption h3{
+    color: red;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    font-size: 20px;
+}
+
+.xp p{
+    text-align: center;
+}
+
+
+/*----Contact page Starts here -------------------------------------------------------------------------*/
+
+input{
+    padding: 4px 7px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: 1px solid #fff;
+}
+
+textarea{
+    padding: 14px;
+    width: 100%;
+    height: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 14px;
+}
+
+.formbtn{
+    background-color: inherit;
+    color: #fff;
+    position: absolute;
+    top: 290px;
+    left: 120px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 7px;
+
+}
+
+.formbtn:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*----Contact page Ends here----------------------------------------------------------------------------*/
+
+/*----footer ----------------------------------------------------------------------------*/
+
+
+footer{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.mapkampala{
+    width: 350px;
+    height: 300px;
+    border-radius: 14px;
+}
+
+footer h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+ul.footer-links{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.footer-links li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+ul.footer-links li a:hover:not(.active){
+    border-bottom: 2px solid rgb(32, 32, 80);
+    color: rgb(32, 32, 80);
+}
+
+ul.footer-links .active{
+    color: #ff0000;
+}
+
